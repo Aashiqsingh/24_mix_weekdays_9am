@@ -1,32 +1,27 @@
-var lang = ["hindi","english","norwegian","norwegian","gujarati","marathi"];
+var language = ["hindi","english","norwegian","tel","gujarati","marathi"];
 
+// var flag = false;
 
-// var flag = true;
 // for(let i=0;i<lang.length;i++){
 
-//     if(lang[i].length < 6){
-//         flag = false;
-//         break;
+//     if(lang[i].length < 4){
+//         flag = true;
 //     }
-
-
+    
 // }
-
 // console.log(flag);
 
-// var x = lang.some((lang)=>{
-//     return lang.length < 5;
+
+// language = language.some((lang)=>{
+//     return lang.length < 4;
 // })
 
-// console.log(x);
+// console.log(language);
 
-// var x = lang.some((lang)=>{
-//     return lang.startsWith("h")
+// language = language.some((lang)=>{
+//     return lang.startsWith("g")
 // })
-// console.log(x);
+// console.log(language);
 
-
-// var x = lang.every((lang)=>{
-//     return lang.startsWith("h")
-// })
-// console.log(x);
+// language = language.some((lang)=> lang.endsWith("l"))
+// console.log(language);
