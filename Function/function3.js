@@ -38,3 +38,6 @@ else{
     
 }
 console.log(flag);
+
+
+var choice = parseInt(prompt("1 for add \n2 for sub \n3 for mul \n4 for div \n\n\n Enter your choice"))

@@ -11,53 +11,42 @@
 
 
 // without argument without return type
-function demo()
-{
-    console.log("Demo function called...");
+
+// function demo()
+// {
+//     console.log("Hello goodmorning all..");
     
-}
+// }
 
 // demo()
-// demo()
 
-// with argument without return type
+// 2. with argument without return type
 
-function add(x,y,z){
-
-    // console.log("Value of x = ",x);
-    // console.log("Value of y = ",y);
-    // console.log("Value of z = ",z);
+// function add(a,b){
+//     console.log("Addition = ",a+b);
     
-    console.log(x+y+z);
-    
+// }
+
+// add("ram",3)
+
+// 3. without argument with return type
+
+function test(){
+    return "Hello world";
 }
 
-// add(2,3,4)
-// add(303,"ram",true);
-
-// add(2,3,"ram")
-
-// 
-
-// without argument with return type
-
-function test()
-{
-    return "royal technsoft";
-}
-
-// let x = test()
+// var x = test()
 // console.log(x);
 
 // console.log(test());
 
-// with argument with return type
 
-function mul(a,b){
+// 4. with argument with return type
 
-    return a * b
+function mul(x,y,z){
+    return x*y*z;
 }
 
-var x = mul(3,4)
+var x = mul(2,3,4)
 console.log("Multiply = ",x);
 
