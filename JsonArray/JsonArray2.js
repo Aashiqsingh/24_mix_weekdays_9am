@@ -73,15 +73,80 @@ var departments = [
     },
 ]
 
+var x = departments.find((depart)=> depart.employees.find((emp)=> emp.name === "payal")).name
+console.log(x);
+
+
+
+
+
+// var x = departments.filter((dept)=>{
+//     return dept.name === "Finance"
+//  })[0].employees.length;
+//  console.log(x);
+ 
+
+// var x = departments.find((depart)=> depart.name === "Finance").employees.length
+// console.log(x);
+
+
+
+
+
+// const Employees25 = employee
+//   .filter(employee => employee.department === "HR" && employee.age > 25)
+//   .map(employee => employee.name);
+
+// console.log(Employees25);
+
+// var x = department.reduce((sum,finace))=> sum + depart.employees.finace.length , 0)
+// const Employees25 = employees
+//   .filter(employee => employee.department === "HR" && employee.age > 25)
+//   .map(employee => employee.name);
+
+// console.log(Employees25);
+
+
+// var x = departments.reduce((sum,depart)=> sum + depart.employees.length,0);
+// console.log(x);
+
+
+
+// var x = departments.map((depart)=> depart.employees.filter((emp)=> emp.gender === "male"))
+// console.log(x);
+
+
+
+
+// var x = departments.filter((dept)=>{
+//     return dept.employees.filter((emp)=>{
+//          return emp.gender === "male";
+//      })
+//  })
+ 
+//  console.log(x);
+ 
+
+
+// var x = departments.find((dept)=>
+//     {
+//      return dept.name ==="IT";
+//     }).employees.filter((emp)=>{
+//      return emp.age === 25;
+//     });
+
+//     console.log(x);
+    
+
 // var x = departments.find((depart)=> depart.name === "Finance").employees.filter((emp)=> emp.gender === "female")
 // console.log(x);
 
-var x = departments.find((depart)=>{
-    return depart.name === "Finance"
-}).employees.filter((emp)=>{
-    return emp.gender === "female"
-})
-console.log(x);
+// var x = departments.find((depart)=>{
+//     return depart.name === "Finance"
+// }).employees.filter((emp)=>{
+//     return emp.gender === "female"
+// })
+// console.log(x);
 
 
 
