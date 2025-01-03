@@ -56,7 +56,7 @@ const  deleteLanguage = (LangName)=> language.filter((lang)=> lang != LangName)
     
 
 
-var deleteLang = "telgu"
+var deleteLang = "telgu";
 
 var x = deleteLanguage(deleteLang)
 console.log(x);
