@@ -115,6 +115,10 @@ var company = [
       ],
     }
   ]
+var x = company.map((comp)=>comp.employees.filter((emp)=>(emp).salary>80000))
+console.log(x);
+
+
 
 
 // var x = company.find((comp)=> comp.employees.find((emp)=> emp.name === "Emily Davis")).employees.filter((emp)=> emp.name === "Emily Davis")[0].position
