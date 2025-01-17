@@ -116,8 +116,14 @@ var company = [
     }
   ]
 
-var x  = company.map((comp)=> comp.employees.filter((emp)=> emp.email.includes("datadynamics.com")).length)
+var x = company.map((comp)=> comp.employees.map((emp)=> emp.position))
 console.log(x);
+
+
+
+
+// var x  = company.map((comp)=> comp.employees.filter((emp)=> emp.email.includes("datadynamics.com")).length)
+// console.log(x);
 
 
 // var x = company.map((comp)=> comp.employees.filter((emp)=> emp.age > 30))
