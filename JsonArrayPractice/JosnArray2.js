@@ -73,6 +73,16 @@ var departments = [
     },
 ]
 
+
+var x = departments.find((depart)=> depart.employees.find((emp)=> emp.name === "payal")).name
+console.log(x);
+
+
+
+
+// var x = departments.find((dept)=>dept.name === 'IT').employees.filter((emp)=>emp.gender === 'male');
+// console.log(x);
+
 // var x = departments.find((depart)=> depart.name === "Finance").employees.filter((emp)=> emp.age > 37)
 // console.log(x);
 
