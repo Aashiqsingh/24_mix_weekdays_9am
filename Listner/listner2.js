@@ -18,3 +18,4 @@ box[2].addEventListener("mousemove",()=>{
     var randomColor = Math.floor(Math.random() * color.length)
     box[1].style.backgroundColor = color[randomColor]
 })
+
