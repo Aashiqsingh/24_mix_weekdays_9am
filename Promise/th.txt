@@ -1,0 +1,25 @@
+Promise --> pending ---> success  -- > failure 
+
+
+promise in javaScript is Class. 
+
+
+Synchronous
+Asynchronous  -> non-Synchronous
+
+
+
+Async ->
+
+First line 
+
+second line --> 5min
+
+End line 
+
+
+Acheive promise :
+sync --> 
+1. block sync 
+    - then , catch
+2. function sync
