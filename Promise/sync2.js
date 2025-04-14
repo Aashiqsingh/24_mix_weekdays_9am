@@ -27,7 +27,7 @@ const getData = ()=>{
 
     return promise;
     
-
+    
 }
 
 // var ans = getData();
